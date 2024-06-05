@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viagens pelo Brasil</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Viagens pelo Brasil</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#destinos">Destinos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Área Principal -->
+    <main>
+        <section id="home">
+            <h2>Bem-vindo ao nosso site de viagens!</h2>
+        </section>
+
+        <section id="destinos">
+            <div class="destinos-container">
+                <article>
+                    <h3>Rio de Janeiro</h3>
+                    <p>Conheça o Cristo Redentor e as praias maravilhosas.</p>
+                    <img src="1-cristo-redentor.webp" alt="Imagem do Rio de Janeiro">
+                </article>
+                <article>
+                    <h3>Salvador</h3>
+                    <p>Desfrute do Carnaval e da rica cultura baiana.</p>
+                    <img src="conheca-salvador-e-se-apaixone-pela-capital-baiana.jpeg" alt="Imagem de Salvador">
+                </article>
+                <article>
+                    <h3>Florianópolis</h3>
+                    <p>Ilha da Magia, Florianópolis encanta com suas praias deslumbrantes e vibrante vida noturna.</p>
+                    <img src="melhor-lugar-para-morar-em-florianopolis.jpg" alt="Imagem de Florianópolis">
+                </article>
+                <article>
+                    <h3>Foz do Iguaçu</h3>
+                    <p>Uma das maiores e mais impressionantes quedas d'água do mundo, localizada no Parque Nacional do Iguaçu.</p>
+                    <img src="garganta-del-diablo-nas-cataratas-do-iguacu-scaled.jpg" alt="Imagem de Foz do Iguaçu">
+                </article>
+                <article>
+                    <h3>Manaus</h3>
+                    <p>Porta de entrada para a Floresta Amazônica, Manaus oferece a fascinante experiência do Encontro das Águas e o icônico Teatro Amazonas.</p>
+                    <img src="Manaus_amazonas.jpg" alt="Imagem de Manaus">
+                </article>
+                <article>
+                    <h3>Ouro Preto</h3>
+                    <p>Um tesouro histórico de arquitetura barroca e igrejas ornamentadas, Ouro Preto é um Patrimônio Mundial da UNESCO.</p>
+                    <img src="dicas-guia-ouro-preto-mg6-1024x682.png" alt="Imagem de Ouro Preto">
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>Viagens pelo Brasil. Isabelle Carvalho.</p>
+    </footer>
+
+    <!-- Script VLibras -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+</body>
+</html>

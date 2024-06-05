@@ -1,0 +1,84 @@
+body {
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    padding: 0;
+    font-size: 18px; /* Tamanho de fonte maior */
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 2.5rem; /* Tamanho de fonte maior para o título */
+}
+
+header nav {
+    margin-top: 1rem;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.25rem; /* Tamanho de fonte maior para os links */
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+.destinos-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.destinos-container article {
+    flex: 1 1 calc(33.333% - 2rem);
+    box-sizing: border-box;
+    margin-bottom: 1.5rem;
+}
+
+.destinos-container img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.vw-plugin-top-wrapper {
+    z-index: 9999 !important;
+}
